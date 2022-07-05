@@ -1,5 +1,7 @@
 # Cider Icon Changer
- Changes the Shortcut-Icon of Cider to the Apple Music Icon
+ Changes the Shortcut-Icon of Cider to the Apple Music Icon!
+ 
+ This works best if you added the shortcut to your taskbar
  
 ![image](https://user-images.githubusercontent.com/34512773/177425455-ae90c33f-0852-45b7-8409-ad6149a08903.png)
 
@@ -8,7 +10,7 @@
 __THIS PLUGIN WILL ONLY WORK ON WINDOWS__
 
 ---
-!!!How to restore::
+How to restore::
 - update to latest cider version and remove this plugin
 ---
 
