@@ -19,6 +19,7 @@ How to restore:
 Upcoming:
 - switch between AME and AM Icon
 - restore default icon
+- use older cider icons
 ---
 
 
