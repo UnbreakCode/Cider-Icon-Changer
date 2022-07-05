@@ -1,0 +1,23 @@
+{
+  "name": "cider-icon-changer",
+  "version": "1.0.0",
+  "description": "changes cider icon",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "unbreakcode",
+  "license": "ISC",
+  "dependencies": {
+    "windows-shortcuts": "^0.1.6"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UnbreakCode/cider-icon-changer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/UnbreakCode/cider-icon-changer/issues"
+  },
+  "homepage": "https://github.com/UnbreakCode/cider-icon-changer#readme"
+}
