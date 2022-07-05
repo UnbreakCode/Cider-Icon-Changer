@@ -8,9 +8,8 @@
 __THIS PLUGIN WILL ONLY WORK ON WINDOWS__
 
 ---
-How to restore::
+!!!How to restore::
 - update to latest cider version and remove this plugin
-- restore default icon
 ---
 
 
