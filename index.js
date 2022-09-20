@@ -1,5 +1,5 @@
 const path = require("path")
-var ws = require('windows-shortcuts');
+const ws = require('windows-shortcuts');
 
 module.exports = class IconChangerPlugin {
     constructor(env) {
@@ -13,6 +13,10 @@ module.exports = class IconChangerPlugin {
 
     // Called when the renderer is ready (app.init())
     onRendererReady(win) {
-        ws.edit(path.join(process.env.APPDATA, "Microsoft\\Windows\\Start Menu\\Programs\\Cider.lnk"), {icon : path.join(this.env.dir, "icon.ico")});
+        try {
+            ws.edit(path.join(process.env.APPDATA, "Microsoft\\Windows\\Start Menu\\Programs\\Cider.lnk"), {icon : path.join(this.env.dir, "icon.ico")});
+        } catch (e) {
+            console.log("[CIDER-ICON-CHANGER] - oh shit I crashed :(")        
+        }
     }
 }
